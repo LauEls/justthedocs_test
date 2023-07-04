@@ -1,8 +1,3 @@
----
-layout: default
-title: DAT160
-nav_order: 1
----
 
 This is the test site for DAT160!
 
