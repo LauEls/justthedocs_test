@@ -1,8 +1,61 @@
-title: Just the Docs Template
+title: Robotics Course Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  #Home: https://github.com/just-the-docs/just-the-docs-template
+  "ING104": https://google.at/
+  "ELE306": https://google.at/
+  "DAT160": https://google.at/
+  "ADA256": https://google.at/
+  "ADA257": https://google.at/
+
+search_enabled: false
+
+footer_content: "Copyright &copy;"
+
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  shared:
+    # permalink: "/shared/"
+    output: true
+
+  lectures:
+    output: true
+    # permalink: "/lectures/"
+
+  assignments:
+    output: true
+    # permalink: "/assignments/"
+
+  labs:
+    output: true
+    # permalink: "/labs/"
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    shared:
+      # Give the collection a name
+      name: Shared
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      nav_fold: false  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: true
+
+    lectures:
+      name: Lecture Notes
+
+    assignments:
+      name: Assignments
+
+    labs:
+      name: Lab Exercises

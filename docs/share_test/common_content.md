@@ -1,0 +1,1 @@
+This is common content, shared on both sites.
