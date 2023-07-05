@@ -102,8 +102,8 @@ roslaunch custom_robot_tutorial robot_spawn.launch
 
 Start adding the missing 3 wheels to the robot model by modifying the “mobile_manipulator_robot.urdf.xacro” file. Where to place the wheels can be deducted from the following mechanical drawings:
 
-![](../images/mobile_robot_plan.png)
-![](../images/robot_arm_plan.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/build_custom_robot/mobile_robot_plan.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/build_custom_robot/robot_arm_plan.png)
 
 Once you finished with adding all the wheels to the mobile platform, copy the following code into the `mobile_manipulator_robot.urdf.xacro` file just before the `</robot>` tag at the end of the file:
 
