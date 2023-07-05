@@ -7,4 +7,4 @@ nav_order: 5
 
 
 
-{% include /testing_include/build_custom_robot.md%}
+{% include /submodule_test/build_custom_robot.md%}
